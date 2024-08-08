@@ -20,8 +20,6 @@
  */
 int validargs(int argc, char **argv)
 {
-    // TO BE IMPLEMENTED.
-
     // No arguments / no flags check (progname, NULL)
     if (argc <= 1) {
         return 0;
