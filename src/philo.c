@@ -53,7 +53,6 @@
  */
 
 int read_distance_data(FILE *in) {
-    // TO BE IMPLEMENTED
     char current_character;
     //character_count checks if the '#' symbol is the first character of the line.
     int character_count = 1;
@@ -457,7 +456,6 @@ int emit_newick_format(FILE *out) {
  * if any error occurred.
  */
 int emit_distance_matrix(FILE *out) {
-    // TO BE IMPLEMENTED
     fprintf(stdout, ",");
     for (int i = 0; i < num_all_nodes; i++)
     {
@@ -542,7 +540,6 @@ int emit_distance_matrix(FILE *out) {
  * if any error occurred.
  */
 int build_taxonomy(FILE *out) {
-    // TO BE IMPLEMENTED
     if (num_taxa == 2)
     {
         if (global_options != MATRIX_OPTION)
