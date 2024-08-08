@@ -10,7 +10,6 @@ int main(int argc, char **argv)
         USAGE(*argv, EXIT_FAILURE);
     if(global_options == HELP_OPTION)
         USAGE(*argv, EXIT_SUCCESS);
-    // TO BE IMPLEMENTED
     //*read distance data
     int result;
     result = read_distance_data(stdin);
@@ -52,8 +51,3 @@ int main(int argc, char **argv)
     }
     return EXIT_SUCCESS; 
 }
-
-/**
- * Just a reminder: All non-main functions should
- * be in another file not named main.c
- */
